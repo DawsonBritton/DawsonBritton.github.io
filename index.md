@@ -31,7 +31,7 @@ title: Dawson Britton
 <section class="skills">
   <h2>Tools I use</h2>
   <dl class="specs">
-    <div><dt>CAD</dt><dd>Onshape (advanced), Rhino 3D, SolidWorks, Inventor</dd></div>
+    <div><dt>CAD</dt><dd>Onshape and Rhino 3D (advanced), SolidWorks, Inventor</dd></div>
     <div><dt>Simulation</dt><dd>OpenRocket; learning ANSYS and Simulink</dd></div>
     <div><dt>Electronics</dt><dd>Arduino / C++, I²C and SPI sensors</dd></div>
     <div><dt>Shop</dt><dd>Welding, CNC, fabrication, automotive repair</dd></div>
