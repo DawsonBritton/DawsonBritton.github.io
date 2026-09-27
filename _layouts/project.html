@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="project">
+  <a class="back" href="{{ '/#projects' | relative_url }}">← All projects</a>
+  <p class="eyebrow">{{ page.category }}{% if page.date_range %} · {{ page.date_range }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="lede">{{ page.summary }}</p>
+  {% if page.role %}<p class="role"><strong>My role:</strong> {{ page.role }}</p>{% endif %}
+  {% if page.image %}<img class="hero-img" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">{% endif %}
+  {% if page.specs %}
+  <dl class="specs">
+    {% for s in page.specs %}<div><dt>{{ s.label }}</dt><dd>{{ s.value }}</dd></div>{% endfor %}
+  </dl>
+  {% endif %}
+  <div class="prose">
+    {{ content }}
+  </div>
+  {% if page.tools %}<p class="tools">{% for t in page.tools %}<span>{{ t }}</span>{% endfor %}</p>{% endif %}
+</article>

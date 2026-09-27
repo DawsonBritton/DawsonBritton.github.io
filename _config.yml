@@ -1,0 +1,16 @@
+title: Dawson Britton
+tagline: Mechanical engineering student · high-power rocketry · flight electronics
+description: Engineering portfolio of Dawson Britton, mechanical engineering student at Old Dominion University.
+email: dawson.r.britton@gmail.com
+github: DawsonBritton
+# linkedin: your-linkedin-handle   # remove the # and fill this in to show a LinkedIn link
+url: https://dawsonbritton.github.io
+markdown: kramdown
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope: { type: projects }
+    values: { layout: project }
+exclude: [README.md]
