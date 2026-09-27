@@ -3,11 +3,11 @@ title: "Hailstorm: IREC 10,000 ft Competition Rocket"
 category: University rocketry team
 date_range: 2025 – 2026
 order: 1
-summary: Recovery and flight simulation for the Old Dominion University Rocketry Club's Spaceport America Cup entry, an M-class rocket built to hit 10,000 ft with a reaction-wheel payload.
+summary: Recovery and flight simulation for the Old Dominion University Rocketry Club's IREC entry, an M-class rocket built to hit 10,000 ft with a reaction-wheel payload.
 role: Recovery & Simulation Lead, Team 40
 status: IREC 2025–2026
 image: /assets/img/irec/launch.jpg
-image_alt: Hailstorm lifting off the launch rail at the Spaceport America Cup
+image_alt: Hailstorm lifting off the launch rail at IREC
 card_image: /assets/img/irec/launch-card.jpg
 specs:
   - { label: Motor, value: "AeroTech M1845NT (98 mm)" }
@@ -18,7 +18,7 @@ specs:
   - { label: Recovery, value: "24 in drogue at apogee, 100 in main at 1,000 ft" }
 tools: [OpenRocket, Onshape]
 gallery:
-  - { src: /assets/img/irec/on-the-rail.jpg, caption: "Hailstorm on the rail at the Spaceport America Cup" }
+  - { src: /assets/img/irec/on-the-rail.jpg, caption: "Hailstorm on the rail at IREC" }
   - { src: /assets/img/irec/team-at-pad.jpg, caption: "The team at the pad before launch" }
   - { src: /assets/img/irec/team-recovery.jpg, caption: "After recovering Hailstorm in the desert" }
   - { src: /assets/img/irec/team-booth.jpg, caption: "Team 40 at the competition expo" }
@@ -28,7 +28,7 @@ gallery:
 
 ## The challenge
 
-The Spaceport America Cup's Intercollegiate Rocket Engineering Competition (IREC) scores teams on how close they get to a target apogee, in our case 10,000 ft, and on bringing the rocket and its payload back safely. Hailstorm was the Old Dominion University Rocketry Club's second IREC entry. It had a student-built carbon fiber and fiberglass airframe, a reaction-wheel payload on a custom PCB, and a spring-mounted livestream camera.
+The Intercollegiate Rocket Engineering Competition (IREC) scores teams on how close they get to a target apogee, in our case 10,000 ft, and on bringing the rocket and its payload back safely. Hailstorm was the Old Dominion University Rocketry Club's second IREC entry. It had a student-built carbon fiber and fiberglass airframe, a reaction-wheel payload on a custom PCB, and a spring-mounted livestream camera.
 
 As Recovery & Simulation Lead I owned two questions: **how high will it go**, and **how does it come down in one piece**.
 
