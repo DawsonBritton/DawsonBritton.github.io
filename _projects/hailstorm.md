@@ -5,7 +5,7 @@ date_range: 2025 – 2026
 order: 1
 summary: Recovery and flight simulation for Old Dominion University's Spaceport America Cup entry, an M-class rocket built to hit 10,000 ft and carry a CubeSat payload.
 role: Recovery & Simulation Lead
-status: Spaceport America Cup 2026
+status: IREC 2025–2026
 specs:
   - { label: Motor, value: AeroTech M1845 }
   - { label: Airframe, value: "5.2 in, carbon fiber and fiberglass" }
