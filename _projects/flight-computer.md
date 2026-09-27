@@ -14,11 +14,21 @@ specs:
   - { label: Velocity noise, value: "0.14 m/s (filtered, at rest)" }
   - { label: Flash used, value: "30,456 of 30,720 bytes (99%)" }
 tools: [C++, Arduino, I²C / SPI, Serial debugging, Multimeter]
+card_image: /assets/img/flight-computer/avionics-sled-card.jpg
 ---
 
 ## What it does
 
 The flight computer runs a state machine: **pad → boost → coast → drogue descent → main descent → landed**. It detects launch from the accelerometer, burnout from the acceleration zero-crossing, and apogee from the filtered barometric velocity. Then it fires the drogue charge at apogee and the main charge at a set altitude on the way down. Every flight is logged to an SD card, and a buzzer reports status on the pad with beep codes.
+
+## Hardware
+
+<div class="pair">
+{% include figure.html src="/assets/img/flight-computer/avionics-sled.jpg" caption="Built on its avionics sled: Arduino Nano, IMU and barometer breakouts, SD module, buzzer, and pyro terminals." %}
+{% include figure.html src="/assets/img/flight-computer/schematic.png" caption="Schematic: two MOSFET-switched pyro channels, the ICM-20649 IMU, BMP280 barometer, and SD card." %}
+</div>
+
+{% include figure.html src="/assets/img/flight-computer/pcb-layout.png" caption="PCB layout for the next revision, replacing the hand-wired breakout boards with a single board." %}
 
 ## Tested on real hardware
 

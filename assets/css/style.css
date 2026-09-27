@@ -79,6 +79,17 @@ h3 { font-size: 18px; margin: 4px 0 8px; }
 .tools { display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0 0; }
 .tools span { font: 500 13px var(--mono); padding: 4px 10px; border-radius: 6px; background: var(--surface); border: 1px solid var(--line); color: var(--text-2); }
 
+/* Photos */
+.photo { margin: 24px 0; }
+.photo img { display: block; width: 100%; border: 1px solid var(--line); }
+.photo figcaption, .chart-note { font-size: 14px; color: var(--muted); margin-top: 8px; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.gallery .photo { margin: 0; }
+.gallery .photo img { aspect-ratio: 4/3; object-fit: cover; }
+.pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.pair .photo { margin: 8px 0; }
+.pair { align-items: start; }
+
 /* Charts */
 .chart { position: relative; margin: 24px 0; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); max-width: none; }
 .chart-title { font-weight: 600; font-size: 15px; margin-bottom: 8px; }

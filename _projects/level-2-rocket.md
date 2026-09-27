@@ -2,7 +2,7 @@
 title: "\"TBD\": Level 2 Certification Rocket"
 category: Personal project
 date_range: 2026
-order: 3
+order: 4
 summary: A 4-inch dual-deploy rocket for my Level 2 high-power certification, designed to fly my custom flight computer.
 role: Designer and builder
 status: In progress

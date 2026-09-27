@@ -2,8 +2,8 @@
 title: PROPEL Competition Rockets
 category: University rocketry team
 date_range: 2026 – 2027
-order: 4
-summary: Leading Old Dominion University's entry in the PROPEL student rocketry competition, with three Level 2-class rockets.
+order: 5
+summary: Leading the Old Dominion University Rocketry Club's entry in the PROPEL student rocketry competition, with three Level 2-class rockets.
 role: Competition Lead
 status: In progress
 tools: [OpenRocket, Onshape]

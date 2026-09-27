@@ -16,5 +16,11 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+  {% if page.gallery %}
+  <h2>Photos</h2>
+  <div class="gallery">
+    {% for g in page.gallery %}{% include figure.html src=g.src caption=g.caption %}{% endfor %}
+  </div>
+  {% endif %}
   {% if page.tools %}<p class="tools">{% for t in page.tools %}<span>{{ t }}</span>{% endfor %}</p>{% endif %}
 </article>
