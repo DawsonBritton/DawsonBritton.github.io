@@ -7,7 +7,7 @@ title: Dawson Britton
   <h1>I design, build, and fly rockets, and the electronics that bring them home.</h1>
   <p class="lede">I'm a mechanical engineering student at Old Dominion University. I was Recovery &amp; Simulation Lead for our Intercollegiate Rocket Engineering Competition (IREC) team, I lead our PROPEL competition rockets, and I'm Level 1 certified, working toward Level 2. I also do CAD for a custom boat canvas shop, turning 3D boat scans into cut patterns. I'm looking for internships and co-ops in aerospace and mechanical design.</p>
   <p class="cta">
-    <a class="btn" href="{{ '/assets/Dawson_Britton_Resume.pdf' | relative_url }}">Resume (PDF)</a>
+    <a class="btn" href="{{ '/resume/' | relative_url }}">Resume</a>
     <a class="btn ghost" href="mailto:{{ site.email }}">Email me</a>
   </p>
 </section>

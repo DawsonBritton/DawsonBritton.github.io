@@ -13,7 +13,7 @@ Open a file, click the pencil icon, make changes, and click **Commit changes**.
 | The home page intro | `index.md` |
 | Email, GitHub, LinkedIn links | `_config.yml` |
 | Colors and fonts | `assets/css/style.css` |
-| Resume download | Replace `assets/Dawson_Britton_Resume.pdf` |
+| Resume | Replace `assets/Dawson_Britton_Resume.pdf` **and** `assets/img/resume.png` (the picture shown on the Resume page) |
 
 ### Adding a project
 
