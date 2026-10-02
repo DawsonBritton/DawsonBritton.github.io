@@ -1,5 +1,5 @@
 ---
-title: "\"TBD\": Level 2 Certification Rocket"
+title: "Ursa Major: Level 2 Certification Rocket"
 category: Personal project
 date_range: 2026
 order: 4
